@@ -1,0 +1,5 @@
+#!/bin/bash
+#cp -r /var/www/vhosts/stg-api-games.sonyliv.com/httpdocs/* /var/tmp/httpdocs
+#rm -rf /var/www/vhosts/stg-api-games.sonyliv.com/httpdocs/*
+rsync -a /var/www/vhosts/* /var/tmp/httpdocs/
+#cp -r /var/www/vhosts/* /var/tmp/httpdocs/
