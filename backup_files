@@ -1,5 +1,5 @@
 #!/bin/bash
-#cp -r /var/www/gamesmela/html/* /var/tmp/httpdocs
+#cp -r /var/www/gamesmela/html/* 
 #rm -rf /var/www/gamesmela/html/*
-rsync -a /var/www/gamesmela/html/* /var/tmp/httpdocs/
-#cp -r /var/www/gamesmela/html/* /var/tmp/httpdocs/
+rsync -a /var/www/gamesmela/html/* 
+#cp -r /var/www/gamesmela/html/* 
